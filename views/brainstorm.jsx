@@ -23,6 +23,7 @@ return (
     <link rel="stylesheet" href="/styleB.css"/>
     {/*<meta httpEquiv="refresh" content="3"/>*/}
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous"></link>
+    <meta httpEquiv="refresh" content="3"/>
 </head>
 <body >
     <div class="jumbotron">
