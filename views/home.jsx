@@ -15,6 +15,7 @@ class home extends React.Component {
 </head>
 <body class="jumbotron">
     <h1>Classroom Assistant</h1>
+    <h6>By Hatta</h6>
     <br></br>
     <br></br>
     <br></br>
