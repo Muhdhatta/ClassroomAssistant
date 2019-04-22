@@ -1,0 +1,2 @@
+INSERT INTO pollTable (poll, input1, input2, input3, input4, input5, vote1, vote2, vote3, vote4, vote5) VALUES('favorite fruit', 'durian', 'apple', 'banana', 'pineapple', 'oranges', 0,0,0,0,0);
+INSERT INTO pollTable (poll, input1, input2, input3, input4, input5, vote1, vote2, vote3, vote4, vote5) VALUES('favorite food', 'sushi', 'nasi ayam', 'bento', 'chicken noodle', 'roti john', 0,0,0,0,0);

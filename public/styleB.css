@@ -1,0 +1,121 @@
+
+
+h3 {
+	background-color:;
+	width: 500px;
+	height: 30px;
+	margin: 10px 10px;
+	padding: 10px 10px;
+	border-radius: 15px;
+	text-align: center;
+	vertical-align: center;
+	overflow-y: scroll;
+	color: black;
+}
+
+.delete {
+background-color:black;
+float: right;
+margin: 10px;
+margin-right: 25px;
+position: relative;
+padding: 5px;
+color: white;
+}
+
+h1 {
+margin: 20px 20px;
+padding: 20px 20px;
+text-align: center;
+color:white;
+}
+
+form {
+	background-color:darkorange;
+	width: 450px;
+	float:left;
+	margin: 40px;
+	padding: 15px;
+	border-radius:20px;
+	text-indent: 5px;
+
+}
+
+
+html {
+  background: url(/background1.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-blend-mode: screen;
+}
+
+
+.cloud {
+    display: inline;
+    list-style-type: none;
+    width:;
+    height: 50%;
+    border:;
+    align-content: stretch;
+}
+
+.cloud li {
+    list-style: none;
+    display: inline;
+}
+
+.cloud li:nth-of-type(2n + 1) {
+    font-size: 1.25em;
+    font-weight: bold;
+    color: red;
+    word-spacing: 5px;
+    z-index: auto;
+}
+
+.cloud li:nth-of-type(3n + 1) {
+    font-size: 1.5em;
+    color: green;
+    text-transform: uppercase;
+    word-spacing: 5px;
+}
+
+.cloud li:nth-of-type(4n + 1) {
+    font-size: 1em;
+    color: black;
+    word-spacing: 5px;
+}
+
+.cloud li:nth-of-type(5n + 1) {
+    font-size: 2em;
+    color: purple;
+    text-transform: uppercase;
+    word-spacing: 5px;
+}
+
+.cloud li:nth-of-type(6n + 1) {
+    font-size: 0.75em;
+    color: orange;
+    word-spacing: 5px;
+}
+
+.col-6 {
+	border-style: solid;
+	border-radius: 15px;
+	background-color: white;
+}
+
+
+
+.jumbotron {
+background-image: url(/background1.jpg);
+background-attachment: fixed;
+ background-position: center;
+ background-repeat: no-repeat;
+ background-size: 100% 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+
+}

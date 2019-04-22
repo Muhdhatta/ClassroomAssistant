@@ -1,0 +1,35 @@
+/*body {
+	background-image:('./public/background.jpg');
+	background-repeat: no-repeat;
+	background-color: red;
+  webkit-background-size: cover;
+  moz-background-size: cover;
+  o-background-size: cover;
+  background-size: cover;
+}*/
+
+.jumbotron {
+ background: url('background1.jpg');
+  background-attachment: fixed;
+ background-position: center;
+ background-repeat: no-repeat;
+ background-size: cover;
+ webkit-background-size: cover;
+ moz-background-size: cover;
+ o-background-size: cover;
+}
+
+h1 {
+margin: 10px 10px;
+padding: 10px 10px;
+text-align: center;
+color:white;
+font-family: 'Roboto', sans-serif;
+
+}
+
+h3 {
+
+color:white;
+font-family: 'Roboto', sans-serif;
+}

@@ -1,0 +1,63 @@
+body {
+/*	background-image:url("./background.jpg");*/
+}
+
+h3 {
+	background-color:white;
+	width: 500px;
+	height: 30px;
+	margin: 10px 10px;
+	padding: 10px 10px;
+	border-radius: 15px;
+	text-align: center;
+	vertical-align: center;
+	overflow-y: scroll;
+}
+
+.delete {
+background-color:black;
+float: right;
+margin: 10px;
+margin-right: 25px;
+position: relative;
+padding: 5px;
+color: white;
+}
+
+h1 {
+margin: 10px 10px;
+padding: 10px 10px;
+text-align: center;
+color:white;
+}
+
+.box {
+  display: inline-block;
+  background:;
+  color: black;
+}
+
+form {
+	background-color:darkorange;
+	width: 450px;
+	float:left;
+	margin: 40px;
+	padding: 15px;
+	border-radius:20px;
+	text-indent: 5px;
+
+}
+
+#two {
+  position: relative;
+  left: 450px;
+  background:;
+}
+
+html {
+  background: url(/background1.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
