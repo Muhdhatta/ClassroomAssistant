@@ -303,7 +303,7 @@ app.get('/poll/vote/:id', (request,response) => {
 
 
 //=========================================
-const port = 3000;
+const port = process.env.PORT || 3000;
 console.log("start listening");
 app.listen(port)
 console.log("done listening");
