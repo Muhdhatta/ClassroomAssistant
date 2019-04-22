@@ -31,7 +31,7 @@ class home extends React.Component {
         <br></br>
         <br></br>
         <br></br>
-    <h3>Polling App</h3>
+    <h3>Polling App (work in progress)</h3>
      <input type="submit" class="btn btn-warning" value="Create Your Own Poll!" formaction="/poll/createTable"></input>
     <input type="submit" class="btn btn-warning" value="Let's Cast Our Vote!" formaction="/poll"></input>
         <br></br>

@@ -118,7 +118,7 @@ app.post("/question/create/add", (request, response) => {
             response.send("query error");
 
 }
-        response.render('thankyou');
+        response.redirect('/question');
     // response.send(result.rows[0]);
 });
 });
@@ -161,24 +161,13 @@ app.get('/brainstorm', (request,response) => {
     const queryString = 'SELECT * FROM brainstorm';
     pool.query(queryString, (err, result) => {
         if (err === undefined ) {
-
-
             const data = {data: result.rows}
-
             response.render('brainstorm', data);
         } else {
             console.error('query error:', err.stack);
             response.send( 'query error' );
 }
 
-            (function (data) {
-  (".posts_index p").each(function (i, elt) {
-    (elt).css({
-      left: Math.random() * 150,
-      top: Math.random() * 150
-    });
-  });
-});
 });
 });
 
@@ -200,7 +189,7 @@ app.post("/brainstorm/create/add", (request, response) => {
         console.error("query error:", errObject.stack);
         response.send("query error");
 }
-    response.render('good');
+    response.redirect('/brainstorm');
     // response.send(result.rows[0]);
 });
 });
@@ -267,7 +256,7 @@ app.post("/poll/create/add", (request, response) => {
         console.error("query error:", errObject.stack);
         response.send("query error");
 }
-    response.render('tablecomplete');
+    response.redirect('/poll');
     // response.send(result.rows[0]);
 });
 });
