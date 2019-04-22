@@ -28,7 +28,7 @@ return (
     <div class="jumbotron">
 
         <div class="container-fluid">
-<h1>BRAINSTORM</h1>
+            <h1>BRAINSTORM</h1>
 
             <div class="row">
                 <div class="col-3"></div>

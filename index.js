@@ -55,6 +55,12 @@ app.engine("jsx", reactEngine);
  * Routes
  * ===================================
  */
+//===================================
+
+app.get('/home', (req, res) => {
+  // running this will let express to run home.handlebars file in your views folder
+  res.render('home')
+})
 
 //=====================================Question
 
@@ -292,6 +298,8 @@ app.get('/poll/vote/:id', (request,response) => {
 }
 });
 });
+
+
 
 
 //=========================================

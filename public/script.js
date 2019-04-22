@@ -45,7 +45,7 @@ window.onload = () => {
     delButtonsArray.forEach( button => {
         button.addEventListener("click",()=>{
             console.log("stuff deleting")
-            fetch(`/brainstorm/${button}`, {
+            fetch(`/brainstorm/${button.id}`, {
                method:"DELETE"
                 })
                     })
