@@ -20,20 +20,20 @@ class home extends React.Component {
     <br></br>
 <form action="/submit">
     <h3>Question App</h3>
-    <input type="submit" class="btn btn-warning" value="Submit Question" formaction="http://localhost:3000/question/create"></input>
-    <input type="submit" class="btn btn-warning" value="Question Portal" formaction="http://localhost:3000/question"></input>
+    <input type="submit" class="btn btn-warning" value="Submit Question" formaction="/question/create"></input>
+    <input type="submit" class="btn btn-warning" value="Question Portal" formaction="/question"></input>
         <br></br>
         <br></br>
         <br></br>
     <h3>Brainstroming App</h3>
-    <input type="submit" class="btn btn-warning" value="Give Your Ideas!" formaction="http://localhost:3000/brainstorm/create"></input>
-    <input type="submit" class="btn btn-warning" value="Brainstorm Portal" formaction="http://localhost:3000/brainstorm"></input>
+    <input type="submit" class="btn btn-warning" value="Give Your Ideas!" formaction="/brainstorm/create"></input>
+    <input type="submit" class="btn btn-warning" value="Brainstorm Portal" formaction="/brainstorm"></input>
         <br></br>
         <br></br>
         <br></br>
     <h3>Polling App</h3>
-     <input type="submit" class="btn btn-warning" value="Create Your Own Poll!" formaction="http://localhost:3000/poll/createTable"></input>
-    <input type="submit" class="btn btn-warning" value="Let's Cast Our Vote!" formaction="http://localhost:3000/poll"></input>
+     <input type="submit" class="btn btn-warning" value="Create Your Own Poll!" formaction="/poll/createTable"></input>
+    <input type="submit" class="btn btn-warning" value="Let's Cast Our Vote!" formaction="/poll"></input>
         <br></br>
         <br></br>
         <br></br>
