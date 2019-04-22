@@ -9,20 +9,20 @@ const SALT = "pepper";
 
 
 
-// Initialise postgres client
-const configs = {
-  user: "asadullah",
-  password: "password",
-  host: "127.0.0.1",
-  database: "trainer_db",
-  port: 5432
-};
+// // Initialise postgres client
+// const configs = {
+//   user: "asadullah",
+//   password: "password",
+//   host: "127.0.0.1",
+//   database: "trainer_db",
+//   port: 5432
+// };
 
-const pool = new pg.Pool(configs);
+// const pool = new pg.Pool(configs);
 
-pool.on("error", function(err) {
-  console.log("idle client error", err.message, err.stack);
-});
+// pool.on("error", function(err) {
+//   console.log("idle client error", err.message, err.stack);
+// });
 
 /**
  * ===================================
